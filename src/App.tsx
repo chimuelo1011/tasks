@@ -26,14 +26,15 @@ function App(): React.JSX.Element {
             </header>
             <hr></hr>
             <Counter></Counter>
+
             <hr />
             <RevealAnswer></RevealAnswer>
             <hr />
             <StartAttempt></StartAttempt>
             <hr />
-            <TwoDice></TwoDice>
-            <hr />
             <ChangeType></ChangeType>
+            <hr />
+            <TwoDice></TwoDice>
             <hr />
             <CycleHoliday></CycleHoliday>
         </div>
