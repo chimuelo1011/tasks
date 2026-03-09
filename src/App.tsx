@@ -34,26 +34,7 @@ function App(): React.JSX.Element {
                 </ul>
             </header>
             <hr></hr>
-<<<<<<< HEAD
             <DoubleHalf></DoubleHalf>
-=======
-            <CheckAnswer expectedAnswer="42"></CheckAnswer>
-            <hr></hr>
-            <GiveAttempts></GiveAttempts>
-            <hr></hr>
-            <EditMode></EditMode>
-            <hr></hr>
-            <ChangeColor></ChangeColor>
-            <hr></hr>
-            <MultipleChoiceQuestion
-                options={["a", "b", "c"]}
-                expectedAnswer="b"
-            ></MultipleChoiceQuestion>
-            <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
-            <hr></hr>
-            <ChooseTeam></ChooseTeam>
->>>>>>> upstream/task-forms
             <hr></hr>
             <ColoredBox></ColoredBox>
 
@@ -76,6 +57,24 @@ function App(): React.JSX.Element {
             <TwoDice></TwoDice>
             <hr />
             <CycleHoliday></CycleHoliday>
+
+            <hr />
+            <CheckAnswer expectedAnswer={""}></CheckAnswer>
+
+            <hr />
+            <GiveAttempts></GiveAttempts>
+
+            <hr />
+            <EditMode></EditMode>
+
+            <hr />
+            <ChangeColor></ChangeColor>
+
+            <hr />
+            <MultipleChoiceQuestion
+                options={["guatemala", "fernet", "toby fox"]}
+                expectedAnswer={"fernet"}
+            ></MultipleChoiceQuestion>
         </div>
     );
 }
